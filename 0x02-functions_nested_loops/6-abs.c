@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * _abs - the absolute value of an integer
@@ -7,9 +6,8 @@
  * Return: 0 or 1
  */
 
-int _abs(int)
+int _abs(int n)
 {
-int n;
 
 return (n >= 0 ? n : n * -1);
 
