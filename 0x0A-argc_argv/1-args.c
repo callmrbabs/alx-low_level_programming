@@ -1,17 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - function that prints the number.
- * @argc: is an argument counter for char
- * @argv: is an argument value for char.
- * Return: Return always success.
+ * main - prints the for the program.
+ * @argc: is a counter of argument for int.
+ * @argv: is a counter for value of the argument to char
+ * Return: Returns always success.
 **/
 
-int main(int argc, char argv[])
+int main(int argc, char *argv[])
 {
-	(void)argv;
+(void)argv;
 
-	printf("%d\n", (argc - 1));
+printf("%d\n", (argc - 1));
 
-	return (0);
+return (0);
 }
+
